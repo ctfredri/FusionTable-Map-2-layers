@@ -29,7 +29,7 @@ var MapsLib = {
   fusionTableId:      "1WoxNIvjGQzQAk7B965hwVQOIl04f-Xn09JuTLu03", //Point data layer
   //fusionTableId:     "1Bs0k_zp6Gb9WShKUNqf-EWO9pQEWdGIjoJ4aOubE"
   //polygon1TableID:    "1ceippR4giBiF-pT9PE1YAUvebFp6_NKvYriccYo", //Outline map layer of CT town boundaries
-  polygon1TableID: "1Bs0k_zp6Gb9WShKUNqf-EWO9pQEWdGIjoJ4aOubE",
+  polygon1TableID: "1gf9hKQ5Ads1yVdvFloUIXTWE5pwEDM6IgcFzjXo1",
   polygon2TableID:    "1VopQGBhRKyyk25EIA5ptScvULxR68d43RhZ1ycM", //Thematic map layer of selected CT school districts
 
   //*MODIFY Fusion Tables Requirement* API key. found at https://code.google.com/apis/console/
@@ -48,7 +48,7 @@ var MapsLib = {
   recordNamePlural:   "results",
 
   searchRadius:       805,            //in meters ~ 1/2 mile
-  defaultZoom:        12,             //zoom level when map is loaded (bigger is more zoomed in)
+  defaultZoom:        8,             //zoom level when map is loaded (bigger is more zoomed in)
   addrMarkerImage:    'images/blue-pushpin.png',
   currentPinpoint:    null,
 
