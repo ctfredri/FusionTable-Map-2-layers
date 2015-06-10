@@ -26,9 +26,10 @@ var MapsLib = {
 
   //MODIFY the encrypted Table IDs of your Fusion Tables (found under File => About)
   //NOTE: numeric IDs will be depricated soon
-  //fusionTableId:      "1WoxNIvjGQzQAk7B965hwVQOIl04f-Xn09JuTLu03", //Point data layer
-  fusionTableId:     "1Bs0k_zp6Gb9WShKUNqf-EWO9pQEWdGIjoJ4aOubE"
-  polygon1TableID:    "1ceippR4giBiF-pT9PE1YAUvebFp6_NKvYriccYo", //Outline map layer of CT town boundaries
+  fusionTableId:      "1WoxNIvjGQzQAk7B965hwVQOIl04f-Xn09JuTLu03", //Point data layer
+  //fusionTableId:     "1Bs0k_zp6Gb9WShKUNqf-EWO9pQEWdGIjoJ4aOubE"
+  //polygon1TableID:    "1ceippR4giBiF-pT9PE1YAUvebFp6_NKvYriccYo", //Outline map layer of CT town boundaries
+  polygon1TableID: "1Bs0k_zp6Gb9WShKUNqf-EWO9pQEWdGIjoJ4aOubE",
   polygon2TableID:    "1VopQGBhRKyyk25EIA5ptScvULxR68d43RhZ1ycM", //Thematic map layer of selected CT school districts
 
   //*MODIFY Fusion Tables Requirement* API key. found at https://code.google.com/apis/console/
