@@ -29,9 +29,9 @@ var MapsLib = {
   fusionTableId:      "1WoxNIvjGQzQAk7B965hwVQOIl04f-Xn09JuTLu03", //Point data layer
   //fusionTableId:     "1Bs0k_zp6Gb9WShKUNqf-EWO9pQEWdGIjoJ4aOubE"
   //polygon1TableID:    "1ceippR4giBiF-pT9PE1YAUvebFp6_NKvYriccYo", //Outline map layer of CT town boundaries
-  polygon1TableID: "1gf9hKQ5Ads1yVdvFloUIXTWE5pwEDM6IgcFzjXo1",
+  polygon1TableID: "1Bs0k_zp6Gb9WShKUNqf-EWO9pQEWdGIjoJ4aOubE",
   //polygon2TableID:    "1VopQGBhRKyyk25EIA5ptScvULxR68d43RhZ1ycM", //Thematic map layer of selected CT school districts
-  polygon2TableID: "1gf9hKQ5Ads1yVdvFloUIXTWE5pwEDM6IgcFzjXo1",
+  polygon2TableID: "1Bs0k_zp6Gb9WShKUNqf-EWO9pQEWdGIjoJ4aOubE",
 
   //*MODIFY Fusion Tables Requirement* API key. found at https://code.google.com/apis/console/
   //*Important* this key is for demonstration purposes. please register your own.
