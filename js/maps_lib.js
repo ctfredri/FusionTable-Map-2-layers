@@ -72,9 +72,6 @@ var MapsLib = {
     };
     map = new google.maps.Map($("#map_canvas")[0],myOptions);
 
-    var searchBox = new google.maps.places.SearchBox(
-    /** @type {HTMLInputElement} */(input));
-
     
     // maintains map centerpoint for responsive design
     google.maps.event.addDomListener(map, 'idle', function() {
