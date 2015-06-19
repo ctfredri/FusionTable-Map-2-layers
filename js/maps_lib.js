@@ -54,6 +54,7 @@ var MapsLib = {
   currentPinpoint:    null,
 
   initialize: function() {
+    var markers = [];
     $( "#result_count" ).html("");
 
     geocoder = new google.maps.Geocoder();
