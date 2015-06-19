@@ -77,6 +77,8 @@ var MapsLib = {
       document.getElementById('search_address'));
     //map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
 
+    var searchBox = new google.maps.places.SearchBox(
+    /** @type {HTMLInputElement} */(input));  
     
     // maintains map centerpoint for responsive design
     google.maps.event.addDomListener(map, 'idle', function() {
