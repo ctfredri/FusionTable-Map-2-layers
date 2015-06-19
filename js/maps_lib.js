@@ -75,7 +75,7 @@ var MapsLib = {
     // Create the search box and link it to the UI element.
     var input = /** @type {HTMLInputElement} */(
       document.getElementById('search_address'));
-    map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+    //map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
 
     
     // maintains map centerpoint for responsive design
