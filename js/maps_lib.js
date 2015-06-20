@@ -109,7 +109,7 @@ var MapsLib = {
       // Create a marker for each place.
       var marker = new google.maps.Marker({
         map: map,
-        icon: image,
+        icon: 'images/blue-pushpin.png',
         title: place.name,
         position: place.geometry.location
       });
