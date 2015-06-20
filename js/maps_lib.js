@@ -111,9 +111,18 @@ var MapsLib = {
         map: map,
         icon: 'images/blue-pushpin.png',
         title: place.name,
-        position: place.geometry.location
+        position: place.geometry.location,
+        clickable: true
       });
-
+      
+      marker.info = new google.maps.InfoWindow({
+        content: marker.position
+      });
+    
+      google.maps.event.addListener(marker, 'click', function() {
+        marker.info.open(map, marker);
+      });
+      
       markers.push(marker);
 
       bounds.extend(place.geometry.location);
