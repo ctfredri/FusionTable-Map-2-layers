@@ -115,13 +115,13 @@ var MapsLib = {
         clickable: true
       });
       
-      marker.info = new google.maps.InfoWindow({
-        content: marker.position
-      });
-    
-      google.maps.event.addListener(marker, 'click', function() {
-        marker.info.open(map, marker);
-      });
+        var info = new google.maps.InfoWindow({
+            content: place.name
+        });
+        
+        google.maps.event.addListener(marker, 'click', function(point) {
+            this.info.open(map, marker);
+        });
       
       markers.push(marker);
 
