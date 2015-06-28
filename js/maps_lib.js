@@ -96,6 +96,7 @@ var MapsLib = {
 
     // For each place, get the icon, place name, and location.
     markers = [];
+    var infowindow = new google.maps.InfoWindow();
     var bounds = new google.maps.LatLngBounds();
     for (var i = 0, place; place = places[i]; i++) {
       var image = {
@@ -114,13 +115,10 @@ var MapsLib = {
         position: place.geometry.location,
         clickable: true
       });
-      
-        info = new google.maps.InfoWindow({
-            content: "blah"
-        });
         
         google.maps.event.addListener(marker, 'click', function(point) {
-            info.open(map,marker)
+            infowindow.setContent('marker position: ' + this.getPosition());
+            infowindow.open(map,this);
         });
       
       markers.push(marker);
