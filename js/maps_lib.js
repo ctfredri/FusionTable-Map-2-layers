@@ -115,12 +115,12 @@ var MapsLib = {
         clickable: true
       });
       
-        marker.info = new google.maps.InfoWindow({
-            content: place.name
+        info = new google.maps.InfoWindow({
+            content: "blah"
         });
         
         google.maps.event.addListener(marker, 'click', function(point) {
-            this.info.open(map);
+            info.open(map,marker)
         });
       
       markers.push(marker);
