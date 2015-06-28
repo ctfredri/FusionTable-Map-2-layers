@@ -111,13 +111,13 @@ var MapsLib = {
       var marker = new google.maps.Marker({
         map: map,
         icon: 'images/blue-pushpin.png',
-        title: place.name + place.formatted_name,
+        title: place.name + ' ' + place.formatted_address,
         position: place.geometry.location,
         clickable: true
       });
         
         google.maps.event.addListener(marker, 'click', function(point) {
-            infowindow.setContent('marker position: ' + this.getPosition() + this.getTitle());
+            infowindow.setContent(this.getTitle());
             infowindow.open(map,this);
         });
       
